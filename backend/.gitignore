@@ -1,0 +1,9 @@
+__pycache__
+.venv
+
+# Directories with generated files
+upload
+frames
+video
+_preview.jpg
+_sample_audio.npz

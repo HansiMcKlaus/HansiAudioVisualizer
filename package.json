@@ -1,0 +1,31 @@
+{
+  "name": "hansiaudiovisualizer",
+  "version": "1.0.0",
+  "description": "Creates custom visualizations for audio files.",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "npm run dev --prefix frontend",
+    "backend": "cd backend && .venv\\Scripts\\activate && python main.py",
+    "start": "start npm run frontend && start npm run backend",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "vite": "^6.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HansiMcKlaus/HansiAudioVisualizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HansiMcKlaus/HansiAudioVisualizer/issues"
+  },
+  "homepage": "https://github.com/HansiMcKlaus/HansiAudioVisualizer#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "vue-toast-notification": "^3.1.3"
+  }
+}

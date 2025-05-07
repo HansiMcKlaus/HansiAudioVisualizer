@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+uvicorn[standard]
+python-multipart
+yt-dlp
+
+librosa
+numpy
+pathvalidate
+opencv-python
+matplotlib
